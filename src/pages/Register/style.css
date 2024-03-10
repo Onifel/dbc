@@ -1,0 +1,63 @@
+.signUp{
+    max-width: 800px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/IMG_1116.JPG');
+    background-size: cover;
+}
+.loginWrapper{ display: flex; flex-direction: column; align-items: center; position: relative;}
+.loginWrapper .box_signUp{width: 320px; display: flex; flex-direction: column; justify-content: center; align-items: center;  margin: 10px 25px 0px 25px; padding-top: 25px; border: 2px solid rgba(255,134,116, 0.8); border-radius: 20px; background-color:rgba(255,134,116, 0.2) ;}
+.loginWrapper .box_signUp::before{
+    content: '';
+    position: 'absolute';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 'inherit';
+    filter: 'blur(5px)';
+    z-index: -1;
+}
+
+.logo{
+  background-image: url('../../assets/LogoDB.png');
+  width: 200px;
+  height: 80px;
+  margin-bottom: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .signUp {
+      height: 960px;
+    }
+  }
+  @media only screen and (max-width: 430px) {
+      .signUp {
+        height: 932px;
+      }
+  }
+  @media only screen and (max-width: 412px) {
+    .signUp {
+      height: 915px;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    .signUp {
+      height: 845px;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .signUp {
+      height: 740px;
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .signUp {
+      height: 658px;
+    }
+  }
+
