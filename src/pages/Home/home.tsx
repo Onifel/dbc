@@ -191,6 +191,8 @@ const Home = () => {
                 
                 console.log("Notifications sent successfully");
                 setDisplayEvents(true);
+                console.log(displayEvents);
+                
             } else {
                 console.log("No device tokens available to send notifications");
             }
@@ -325,6 +327,7 @@ const Home = () => {
                                             const startTime= formJson.selectedStartTime;
                                             const endTime = formJson.selectedEndTime;
                                             const stylist = formJson.stylist;
+                                            console.log(title, customer, startTime, endTime, stylist);
                                             handleSubmit(e);
                                             handleClose();
                                         },
