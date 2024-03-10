@@ -21,6 +21,10 @@
     z-index: -1;
 }
 
+*:focus{
+  outline: none !important;
+}
+
 .logo{
   background-image: url('../../assets/LogoDB.png');
   width: 200px;

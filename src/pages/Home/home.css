@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+*:focus{
+    outline: none !important;
+  }
+
 .header {
     text-align: right;
     padding-right: 15px;

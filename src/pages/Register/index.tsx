@@ -211,7 +211,7 @@ const Register = () => {
                                                 textAlign:'center'
                                             },
                                             '& input': {
-                                                paddingTop:'40px',
+                                                paddingTop:'35px',
                                                 paddingRight:'40px' 
                                             },
                                             '&.Mui-focused fieldset': {
@@ -219,7 +219,7 @@ const Register = () => {
                                                 textAlign:'center',
                                             },
                                             '&.Mui-focused input':{
-                                                paddingTop:'40px',
+                                                paddingTop:'35px',
                                                 paddingRight:'40px'
                                             }
                                         },
@@ -283,14 +283,14 @@ const Register = () => {
                                                     border: '1px solid whitesmoke !important'
                                                 },
                                                 '& input': {
-                                                    paddingTop:'40px',
+                                                    paddingTop:'35px',
                                                     paddingRight:'40px' 
                                                 },
                                                 '&.Mui-focused fieldset': {
                                                     border: '2px solid whitesmoke !important',
                                                 },
                                                 '&.Mui-focused input':{
-                                                    paddingTop:'40px',
+                                                    paddingTop:'35px',
                                                     paddingRight:'40px'
                                                 }
                                             },
@@ -354,14 +354,14 @@ const Register = () => {
                                                     border: '1px solid whitesmoke !important'
                                                 },
                                                 '& input': {
-                                                    paddingTop:'40px',
+                                                    paddingTop:'35px',
                                                     paddingRight:'40px' 
                                                 },
                                                 '&.Mui-focused fieldset': {
                                                     border: '2px solid whitesmoke !important',
                                                 },
                                                 '&.Mui-focused input':{
-                                                    paddingTop:'40px',
+                                                    paddingTop:'35px',
                                                     paddingRight:'40px'
                                                 }
                                             },

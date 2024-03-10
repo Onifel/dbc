@@ -295,14 +295,7 @@ const Home = () => {
                                 <div className='add-event'> 
                                     <Button sx={{
                                         backgroundColor: 'transparent',
-                                        cursor: 'pointer',
-                                        overrides:{
-                                            MuiButton: {
-                                                '&:focus':{
-                                                    borderColor:'transparent'
-                                                }
-                                            }
-                                        }
+                                        cursor: 'pointer'
                                         }}  
                                         onClick={handleClickOpen}>
                                         <AddRoundedIcon style={{color:'rgba(114,114,112,0.5)', fontSize:'medium'}} />
@@ -353,14 +346,7 @@ const Home = () => {
                                                 height: '25px',
                                                 fontSize: '10px',
                                                 cursor: 'pointer',
-                                                backgroundColor: 'transparent',
-                                                overrides:{
-                                                    MuiButton: {
-                                                        '&:focus':{
-                                                            borderColor:'transparent'
-                                                        }
-                                                    }
-                                                }
+                                                backgroundColor: 'transparent'
                                                 }}  
                                                 onClick={handleClose}
                                             >
@@ -679,13 +665,6 @@ const Home = () => {
                                                         color: 'rgb(255,134,116)',
                                                         backgroundColor: 'transparent',
                                                         border: '1px solid rgb(255,134,116)'
-                                                    },
-                                                    overrides:{
-                                                        MuiButton: {
-                                                            '&:focus':{
-                                                                borderColor:'transparent'
-                                                            }
-                                                        }
                                                     }
                                                 }}
                                                 type='submit'
